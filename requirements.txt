@@ -1,0 +1,44 @@
+📌 Stock Market Data Analyzer – Requirements
+1. 🧩 Functional Requirements
+
+The system should be able to:
+
+📥 Fetch historical stock market data for selected companies (e.g., AAPL, INFY, TSLA)
+📊 Display stock price trends over a selected time period
+📈 Calculate key financial indicators such as:
+Moving Averages (7-day, 30-day)
+Daily Returns
+Volatility
+🔍 Analyze stock performance and detect trends (bullish/bearish patterns)
+📉 Compare multiple stocks based on performance metrics
+📊 Generate visual insights using charts (line charts, bar charts, etc.)
+🖥️ (Optional) Provide an interactive dashboard for user input and visualization
+2. ⚙️ Technical Requirements
+🖥️ Programming Language:
+Python 3.8+
+📚 Libraries & Frameworks:
+pandas → Data cleaning & manipulation
+numpy → Numerical operations
+matplotlib → Basic visualization
+seaborn → Advanced visualization
+yfinance → Stock market data extraction
+streamlit (optional) → Dashboard creation
+🛠️ Development Tools:
+VS Code / Jupyter Notebook
+Git & GitHub (version control)
+Python virtual environment (venv)
+3. 📡 Data Requirements
+
+The project requires financial market data such as:
+
+🏷️ Stock ticker symbols (e.g., AAPL, GOOGL, INFY)
+📅 Historical time-series data (daily/weekly/monthly)
+📊 Data fields:
+Open price
+Close price
+High price
+Low price
+Volume
+Adjusted Close price
+📦 Data Source:
+Yahoo Finance API (via yfinance library)
